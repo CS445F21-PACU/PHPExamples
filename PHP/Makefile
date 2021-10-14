@@ -1,0 +1,15 @@
+#############################################################################
+# File name:  Makefile
+# Author:     chadd williams
+# Date:       Oct 13, 2021
+# Class:      CS445
+# Assignment: Big DB 
+# Purpose:	Copy files from PHP directory to web directory 
+#############################################################################
+
+all: copy
+
+copy: 
+	mkdir -p /srv/www/htdocs/php/${USER}/PHPPractice
+	chmod o+rx -R /srv/www/htdocs/php/${USER}/PHPPractice
+	rsync -ahv * /srv/www/htdocs/php/${USER}/PHPPractice
