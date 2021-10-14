@@ -10,7 +10,7 @@
       "request": "launch",
       "port": 9003,
       "pathMappings" :
-      {"/srv/www/htdocs/php/${env:USER}/PHPPractice": "${workspaceRoot}"},
+      {"/srv/www/htdocs/php/${env:USER}/PHPExamples": "${workspaceRoot}"},
     },
     {
       "name": "Launch currently open script",
