@@ -1,4 +1,6 @@
-# PHP Practice
+# PHP Examples
+
+This project contains example PHP code that hooks up to the College database used in class.
 
 ## VS Code
 
@@ -24,10 +26,10 @@ In the terminal, type
 make copy
 ```
 
-This will copy your PHP code to /srv/www/htdocs/php/PUNETID/PHPPractice
+This will copy your PHP code to /srv/www/htdocs/php/PUNETID/PHPExamples
 
 You can open this website in your VM via:
 
-http://localhost/php/PUNETID/PHPPractice/
+http://localhost/php/PUNETID/PHPExamples/
 
 (hint: you can edit this README file to change PUNETID to your actual PUNETID so you can use the link above.)
